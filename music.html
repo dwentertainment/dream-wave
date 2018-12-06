@@ -8,10 +8,19 @@ Licence URI: http://www.os-templates.com/template-terms
 -->
 <html>
 <head>
-<title>Maxisonix | Pages | Sidebar Right</title>
+<title>Maxisonix | Pages | Basic Grid</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<style type="text/css">
+/* DEMO ONLY */
+.container .demo{text-align:center;}
+.container .demo div{padding:8px 0;}
+.container .demo div:nth-child(odd){color:#FFFFFF; background:#CCCCCC;}
+.container .demo div:nth-child(even){color:#FFFFFF; background:#979797;}
+@media screen and (max-width:900px){.container .demo div{margin-bottom:0;}}
+/* DEMO ONLY */
+</style>
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -20,7 +29,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- Top Background Image Wrapper -->
 <div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');"> 
   <!-- ################################################################################################ -->
- <div class="wrapper row0">
+  <div class="wrapper row0">
     <div id="topbar" class="hoc clear"> 
       <!-- ################################################################################################ -->
       <div class="fl_left">
@@ -50,10 +59,10 @@ Licence URI: http://www.os-templates.com/template-terms
       <nav id="mainav" class="fl_right">
         <ul class="clear">
           <li><a href="index.html">Home</a></li>
-          <li><a class="drop" href="#">media</a>
+          <li class="active"><a class="drop" href="#">media</a>
             <ul>
-              <li><a href="pages/gallery.html">Gallery</a></li>
-              <li><a href="pages/full-width.html">music</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li class="active"><a href="pages/full-width.html">music</a></li>
               <li><a href="pages/sidebar-left.html">video</a></li>
               <li><a href="pages/sidebar-right.html"></a></li>
               <li><a href="pages/basic-grid.html"></a></li>
@@ -65,8 +74,7 @@ Licence URI: http://www.os-templates.com/template-terms
               <li><a class="drop" href="#">news</a>
                 <ul>
                   <li><a href="#">entertainment news</a></li>
-                  <li><a href="#">tvc news</a></li>
-                  <li><a href="#">w news</a></li>
+                  <li><a href="news.html">news</a></li>
                 </ul>
               </li>
               <li><a href="#">music video</a></li>
@@ -74,15 +82,20 @@ Licence URI: http://www.os-templates.com/template-terms
             </ul>
           </li>
           <li><a href="about.html">about</a></li>
-          <li class="active"><a href="contact.html">contact</a></li>
+          <li><a href="contact.html">contact</a></li>
         </ul>
       </nav>
       <!-- ################################################################################################ -->
     </header>
   </div>
   <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -
+  <!-- ################################################################################################ -->
 </div>
 <!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 
 <!-- ################################################################################################ -->
@@ -92,59 +105,43 @@ Licence URI: http://www.os-templates.com/template-terms
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <div class="content three_quarter first"> 
+    <div class="content"> 
       <!-- ################################################################################################ -->
-     
-    
-      <div id="comments">
-        <h2></h2>
-       
-        <h1>Write A Comment</h1>
-        <form action="#" method="post">
-          <div class="one_third first">
-            <label for="name">Name <span>*</span></label>
-            <input type="text" name="name" id="name" value="" size="22" required>
-          </div>
-          <div class="one_third">
-            <label for="email">Mail <span>*</span></label>
-            <input type="email" name="email" id="email" value="" size="22" required>
-          </div>
-          <div class="one_third">
-            <label for="url">Website</label>
-            <input type="url" name="url" id="url" value="" size="22">
-          </div>
-          <div class="block clear">
-            <label for="comment">Your Comment</label>
-            <textarea name="comment" id="comment" cols="25" rows="10"></textarea>
-          </div>
-          <div>
-            <input type="submit" name="submit" value="Submit Form">
-            &nbsp;
-            <input type="reset" name="reset" value="Reset Form">
-          </div>
-        </form>
+      <h2></h2>
+      <!-- ################################################################################################ -->
+      <div class="group btmspace-50 demo">
+        <div class="one_half first"> </div>
+        <div class="one_half"></div>
       </div>
       <!-- ################################################################################################ -->
-    </div>
-    <!-- ################################################################################################ -->
-    <!-- ################################################################################################ -->
-    <div class="sidebar one_quarter"> 
+      <h2></h2>
+      <!--############################################################################################### -->
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first"></div>
+        <div class="one_quarter"></div>
+        <div class="one_quarter"></div>
+        <div class="one_quarter"></div>
+      </div>
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first"></div>
+        <div class="one_quarter"></div>
+        <div class="two_quarter"></div>
+      </div>
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first"></div>
+        <div class="three_quarter"></div>
+      </div>
       <!-- ################################################################################################ -->
-     
-      <div class="sdb_holder">
-        <article>
-          <h6>Lorem ipsum dolor</h6>
-          <address>
-          Street Name &amp; Number, Town, Postcode/Zip
-          </address>
-          <ul>
-             <li><i class="fa fa-phone"></i> +234 909 2150 379</li>
-        <li><i class="fa fa-fax"></i> +234 902 6850 054</li>
-        <li><i class="fa fa-envelope-o"></i> dwentertainment268@Gemil.com</li>
-            
-          </ul>
-          
-    </article>
+      <h2></h2>
+      <!-- ################################################################################################ -->
+      <div class="group btmspace-50 demo">
+        <div class="one_third first"></div>
+        <div class="one_third"></div>
+        <div class="one_third"></div>
+      </div>
+      <div class="group demo">
+        <div class="one_third first"></div>
+        <div class="two_third"></div>
       </div>
       <!-- ################################################################################################ -->
     </div>
@@ -163,7 +160,8 @@ Licence URI: http://www.os-templates.com/template-terms
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright All Rights <a href="#">wisdom dominick</a></p>
+    <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
     <!-- ################################################################################################ -->
   </div>
 </div>
