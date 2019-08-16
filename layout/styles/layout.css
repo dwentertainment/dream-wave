@@ -11,8 +11,6 @@ File: Layout CSS
 @import url("fontawesome-4.6.3.min.css");
 @import url("custom.flexslider.css");
 @import url("framework.css");
-body {
-    font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;}
 
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
@@ -65,7 +63,7 @@ body {
 .container{padding:80px 0;}
 
 /* Content */
-.container .content{background-color: aliceblue}
+.container .content{}
 
 .stats li{display:block; float:left; width:25%;}/* If more (less) elements are added (removed), you have to modify the width appropriately - the media queries as well */
 .stats li *{margin:0;}
@@ -432,7 +430,13 @@ table a, #comments a{background-color:inherit;}
 	.hoc.split{max-width:none; width:100%;}
 	.split section{float:none; width:100%; padding:10% 5%;}
 }
-
+.slider2 {
+    width: 888px;
+    height: 180px;
+    background: url(fonts/backgrounds/01.png);
+    animation: slide 40s infinite;
+    
+}
 @keyframes slide {
     20%{
         background: url(fonts/backgrounds/02.png)
@@ -444,5 +448,3 @@ table a, #comments a{background-color:inherit;}
         background: url(fonts/backgrounds/04.png)
     }
 }
-
-

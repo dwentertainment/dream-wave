@@ -11,7 +11,7 @@ File: Custom Flexslider CSS => For FlexSlider v2.6.1
 /* Browser Resets
 --------------------------------------------------------------------------------------------------------------- */
 .flex-container a:hover, .flex-slider a:hover{outline:none;}
-    .slides, .slides > li, .flex-control-nav, .flex-direction-nav{margin:0; padding:0; list-style:none;}
+.slides, .slides > li, .flex-control-nav, .flex-direction-nav{margin:0; padding:0; list-style:none;}
 .flex-direction-nav a{font-family:"FontAwesome";}
 
 
