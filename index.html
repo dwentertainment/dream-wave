@@ -17,6 +17,25 @@ Licence URI: http://www.os-templates.com/template-terms
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="layout/css/countdown-timer-widget.css" type="text/css" media="all">
+     <script src="http://code.jquery-3.3.1."
+    ></script>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #note{
+            color: #666666;
+            font-size: 13px;
+            margin: 0 auto;
+            padding: 4px;
+            text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+            width: 500px;
+        }
+    
+    
+    </style>
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -170,10 +189,53 @@ Licence URI: http://www.os-templates.com/template-terms
   </main>
 </div>
     <a href="https://wa.me/2349058124456?text=Dream%20wave%20entertainment">
-    <img src="images/demo/ad/DW%20SITE%20AD%203.jpg" width="100%">
+    <img src="images/demo/ad/dw%20site%20da%203.png" width="80%">
     </a> 
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
+    
+    <div id="coutdown"></div>
+    <p id="note"></p>
+    <script src="layout/scripts/jquery.min.js"></script>
+    <script>
+    $(function(){
+        var note = $('#note'),
+            ts = new Date(2012, 0, 1),
+            newVear = true;
+        
+        if((new Date()) > ts){
+            ts =(new Date()).getTime() + 10*24*60*1000;
+            newYear = false;
+             
+        }
+        $('#countdown').countdown({
+            timestamp : ts, 
+             callback : function(days, hours, minutes, seconds){
+                var message = "";
+                message += days + "day" + (days==1 ? '':'s') + ", ";
+                
+                message += hours + "hours" + (hours==1 ? '':'s') + ", ";
+                
+                message += minutes + "minutes" + (minutes==1 ? '':'s') + " and ";
+                
+                message += seconds + "seconds" + (seconds==1 ? '':'s') + " <br> ";
+                
+                if(newYear){
+                    massage += "left untill fashion fest !";
+                }
+                else{
+                    massage += "left to 3 days fron now !";
+                }
+                note.html(message); 
+                
+            }
+            
+        });
+    });
+    
+    
+    
+    </script>
 
 <!-- ################################################################################################ -->
 <div class="wrapper row2">
@@ -184,7 +246,7 @@ Licence URI: http://www.os-templates.com/template-terms
  </h3>
     </div>
    
-   <img src="images/logo/SOP%201.png">
+   <img src="images/logo/SOP%202.png">
   </article>
     
 </div>
@@ -247,12 +309,18 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
   </article>
 </div>
+   
+    
+    
+    
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
+    
 <div class="wrapper row4 bgded overlay" style="background-image:url('images/demo/backgrounds/16.jpg');">
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
+      
     <div class="one_third first">
       <h6 class="title"></h6>
     
@@ -308,6 +376,45 @@ Licence URI: http://www.os-templates.com/template-terms
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
 <script src="layout/scripts/jquery.min.js"></script>
+    <script>
+    $(function(){
+        var note = $('#note'),
+            ts = new Date(2019, 9, 22),
+            newVear = true;
+        
+        if((new Date()) > ts){
+            ts =(new Date()).getTime() + 10*24*60*60*1000;
+            newYear = false
+             
+        }
+        $('#countdown').countdown({
+            timestamp : ts, callback : function(days, hours, minutes, seconds){
+                var message = "";
+                message += days + "day" + (days==1 ? '':'s') + ", ";
+                
+                message += hours + "hours" + (hours==1 ? '':'s') + ", ";
+                
+                message += minutes + "minutes" + (minutes==1 ? '':'s') + " and ";
+                
+                message += seconds + "seconds" + (seconds==1 ? '':'s') + " <br> ";
+                
+                if(newYear){
+                    massage += "left untill fashion fest !";
+                }
+                else{
+                    massage += "left to 3 days fron now !";
+                }
+                note.html(message); 
+                
+            }
+            
+        });
+    });
+    
+    
+    
+    </script>
+<script src="layout/js/jquery.countdownTimer.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
 <script src="layout/scripts/jquery.flexslider-min.js"></script>
