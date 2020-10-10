@@ -1013,6 +1013,17 @@ div#preloader {
   height: auto;
   position: relative;
 }
+.reviews-event-area {
+  background: url(../img/slider/slider3.JPG);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
 
 .work-left-text {
   background: #3EC1D5 none repeat scroll 0 0;
@@ -1871,12 +1882,20 @@ div#preloader {
 /*----------------------------------------*/
 
 .header-bg {
-  background: url(../img/slider/slider1.jpg);
+  background: url(../img/slider/slider1%20-%20Copy.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
 }
+.header-event {
+  background: url(../img/slider/slider3.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
 
 .header-bg.home-2 {
   width: 100%;
