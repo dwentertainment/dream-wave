@@ -1,589 +1,1018 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>DREAM-WAVE</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
 
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Site Metas -->
+    <title>DREAM-WAVE</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
-  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
-  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/venobox/venobox.css" rel="stylesheet">
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
-  <!-- Nivo Slider Theme -->
-  <link href="css/nivo-slider-theme.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- color -->
+    <link id="changeable-colors" rel="stylesheet" href="css/colors/strong-blue.css" />
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+    <!-- Modernizer -->
+    <script src="js/modernizer.js"></script>
 
-  <!-- Responsive Stylesheet File -->
-  <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-  <!-- =======================================================
-    Theme Name: eBusiness
-    Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
-<body data-spy="scroll" data-target="#navbar-example">
-
-  <div id="preloader"></div>
-
-  <header>
-    <!-- header-area start -->
-    <div id="sticker" class="header-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12">
-
-            <!-- Navigation -->
-            <nav class="navbar navbar-default">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-                <!-- Brand -->
-                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
-                  <h1><span>DREAM</span>WAVE</h1>
-                  <!-- Uncomment below if you prefer to use an image logo -->
-                  <!-- <img src="img/logo.png" alt="" title=""> -->
-								</a>
-              </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
-                <ul class="nav navbar-nav navbar-right">
-                  <li class="active">
-                    <a class="page-scroll" href="#home">Home</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#about">About</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#Products">Store</a>
-                  </li>
-                  <li>
-                    <a class="page-scroll" href="#blog">Our Events</a>
-                  </li>
-                  <li ><a href="blog.html"  >GLOW IN THE DARK</a>
-                   
-                  </li>
-
-                  <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
-              <!-- navbar-collapse -->
-            </nav>
-            <!-- END: Navigation -->
-          </div>
-        </div>
-      </div>
+<body>
+    <div id="loader">
+        <div id="status"></div>
     </div>
-    <!-- header-area end -->
-  </header>
-  <!-- header end -->
+    <div id="site-header">
+        <header id="header" class="header-block-top">
+            <div class="container">
+                <div class="row">
+                    <div class="main-menu">
+                        <!-- navbar -->
+                        <nav class="navbar navbar-default" id="mainNav">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="logo">
+                                    <a class="navbar-brand js-scroll-trigger logo-header" href="#">
+                                        <img src="images/logo.png" width="150px" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a href="#banner">Home</a></li>
+                                    <li><a href="#about">About us</a></li>
+                                    <li><a href="#menu">Our work</a></li>
+                                    <li><a href="#our_team">Top Event</a></li>
+                                    <li><a href="#gallery">Gallery</a></li>
+                                    <li><a href="https://dreamwaveblogs.blogspot.com/">Blog</a></li>
+                                    <li><a href="#pricing">Stores</a></li>
+                                    <li><a href="#reservation">Booking</a></li>
+                                    <li><a href="#footer">Contact us</a></li>
+                                </ul>
+                            </div>
+                            <!-- end nav-collapse -->
+                        </nav>
+                        <!-- end navbar -->
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container-fluid -->
+        </header>
+        <!-- end header -->
+    </div>
+	<!-- end site-header -->
+	
+    <div id="banner" class="banner full-screen-mode parallax">
+        <div class="container pr">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="banner-static">
+                    <div class="banner-text">
+                        <div class="banner-cell">
+                            <h1>DREAM WAVE  <span class="typer" id="some-id" data-delay="200" data-delim=":" data-words=":STUDIO :& ENT" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
+                            <h2>CREATING A BETTER TOMORROW </h2>
+                            <br>
+                            <div class="book-btn">
+                                <a href="#footer" class="table-btn hvr-underline-from-center">CONTACT US</a>
+                            </div>
+                            <a href="#about">
+                                <div class="mouse"></div>
+                            </a>
+                        </div>
+                        <!-- end banner-cell -->
+                    </div>
+                    <!-- end banner-text -->
+                </div>
+                <!-- end banner-static -->
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end banner -->
 
-  <!-- Start Slider Area -->
-  <div id="home" class="slider-area">
-    <div class="bend niceties preview-2">
-      <div id="ensign-nivoslider" class="slides">
-        <img src="img/slider/slider1.jpg" alt="" title="#slider-direction-1" />
-        <img src="img/slider/slider2.jpg" alt="" title="#slider-direction-2" />
-        <img src="img/slider/slider3.jpg" alt="" title="#slider-direction-3" />
-      </div>
-
-      <!-- direction 1 -->
-      <div id="slider-direction-1" class="slider-direction slider-one">
+    <div id="about" class="about-main pad-top-100 pad-bottom-100">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="slider-content">
-                <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h2 class="title1">Up Cominig Event  </h2>
-                </div>
-                <!-- layer 2 -->
-                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                  <h1 class="title2">GLOW IN THE DARK </h1>
-                </div>
-                <!-- layer 3 -->
-                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                  <a class="ready-btn right-btn page-scroll" href="#services">See EVENT </a>
-                  <a class="ready-btn page-scroll" href="#about">Learn More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title"> About Us </h2>
+                        <p> We are one of the fastest growing Media and Entertainment industrys. Dedicated in helping young-mind and also serving as a framework for upcoming professionals in the industry.         </p>
 
-      <!-- direction 2 -->
-      <div id="slider-direction-2" class="slider-direction slider-two">
+                        <p>Dream wave was founded in the early 2016 but to published up until 2018 and was known as D-W, DW was known for it outstanding madia service, event skill and brand management.</p>
+
+                        <p> with a membership of 10 we staged our first event, on the 30th of Dec 2018, and afterwards DW was considered an abbreviation as it now known as DREAM WAVE. </p>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <div class="about-images">
+                            <img class="about-main" src="images/about-main.jpg" width="60%" alt="About Main Image">
+                            <img class="about-inset" src="images/about-inset.jpg" width="37%" alt="About Inset Image">
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </div>
+
+    <div class="special-menu pad-top-100 parallax">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="slider-content text-center">
-                <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h2 class="title1">WELCOME TO </h2>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title color-white text-center"> Our Sponsors </h2>
+                        <h5 class="title-caption text-center">this are brands we hava worked with  </h5>
+                    </div>
+                    <div class="special-box">
+                        <div id="owl-demo">
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            SALMON STEAK
+                                            <div class="line"></div>
+                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/p1.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            DEMOTIF
+                                            <div class="line"></div>
+                                            <div class="dit-line">A fast growing brand consultancy &amp; art label.</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/p2.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            MATERTIALZ 
+                                            <div class="line"></div>
+                                            <div class="dit-line">One of the best media in  calabar.</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/p3.png" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            AMBER
+                                            <div class="line"></div>
+                                            <div class="dit-line">One of calabar top karaoke lounge.</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/p4.png" alt="sp-menu">
+                                </div>
+                            </div>
+                            <div class="item item-type-zoom">
+                                <a href="#" class="item-hover">
+                                    <div class="item-info">
+                                        <div class="headline">
+                                            HEAT BUSTERS
+                                            <div class="line"></div>
+                                            <div class="dit-line">An entertainment company in UAR.</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="item-img">
+                                    <img src="images/p5.jpg" alt="sp-menu">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end special-box -->
                 </div>
-                <!-- layer 2 -->
-                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
-                  <h1 class="title2">DREAM-WAVE</h1>
-                </div>
-                <!-- layer 3 -->
-                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                  <a class="ready-btn right-btn page-scroll" href="services">See Services</a>
-                  <a class="ready-btn page-scroll" href="#about">Learn More</a>
-                </div>
-              </div>
+                <!-- end col -->
             </div>
-          </div>
+            <!-- end row -->
         </div>
-      </div>
+        <!-- end container -->
+    </div>
+    <!-- end special-menu -->
 
-      <!-- direction 3 -->
-      <div id="slider-direction-3" class="slider-direction slider-two">
+    <div id="menu" class="menu-main pad-top-100 pad-bottom-100">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="slider-content">
-                <!-- layer 1 -->
-                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h2 class="title1">The Best Of  Media &amp; Entertainment </h2>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+						Our Work
+					</h2>
+                        <p class="title-caption text-center"> </p>
+                    </div>
+                    <div class="tab-menu">
+                        <div class="slider slider-nav">
+                            <div class="tab-title-menu">
+                                <h2>Media</h2>
+                                <p> <i class="flaticon-canape"></i> </p>
+                            </div>
+                            <div class="tab-title-menu">
+                                <h2>Web design </h2>
+                                <p> <i class="flaticon-dinner"></i> </p>
+                            </div>
+                            <div class="tab-title-menu">
+                                <h2>Branding </h2>
+                                <p> <i class="flaticon-desert"></i> </p>
+                            </div>
+                            <div class="tab-title-menu">
+                                <h2>Managment</h2>
+                                <p> <i class="flaticon-coffee"></i> </p>
+                            </div>
+                        </div>
+                        <div class="slider slider-single">
+                            <div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/gallery_7.JPG" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>WET &amp; WILD</h3>
+                                            <p>
+                                                Event by SME EVENTS     </p>
+                                        </div>
+                                        <span class="offer-price">S</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/event%204%202020.JPG" width="50%" height="30%" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>NO BAR DAY</h3>
+                                            <p>
+                                               Eventt by FAMOUS ENT     </p>
+                                        </div>
+                                        <span class="offer-price">$93</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                      <!-- end col -->
+                            </div>
+                            <div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/imt.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3> IMTNIGERIA</h3>
+                                            <p>
+                                              A Marine Shcool In Akwa Ibom State Nigeria          </p>
+                                        </div>
+                                        <span class="offer-price">$389</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/shophill.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SHOPHILL</h3>
+                                            <p>
+                                               A FASHION STORES     </p>
+                                        </div>
+                                        <span class="offer-price">$310</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                  </div>
+                            <div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/blog4.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SOUTHERN FEST</h3>
+                                            <p>
+                                               An Event In Cross River 
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$140</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/dezari%20logo.png" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>DEZARI MAKOVER</h3>
+                                            <p>
+                                            A Spa and Makeup Brand In, Abuja Nigeria
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$110</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/3WEEKS.jpg" width="50%" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>SWEETDOROPS CONFECTIONERY</h3>
+                                            <p>
+                                                A Food Company In, Abuja Nigeria
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$92</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                            </div>
+                            <div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/TDM.png" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>TOUCHDOWN MUSIC</h3>
+                                            <p>
+                                               A music label 
+                                            </p>
+                                        </div>
+                                        <span class="offer-price">$1200</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <div class="offer-item">
+                                        <img src="images/STUDIO%20+.jpg" alt="" class="img-responsive">
+                                        <div>
+                                            <h3>STUDIO +</h3>
+                                            <p>
+                                              A DREAM WAVE COMPANY   </p>
+                                        </div>
+                                        <span class="offer-price">$900</span>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                                
+                                <!-- end col -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end tab-menu -->
                 </div>
-                <!-- layer 2 -->
-                
-                <!-- layer 3 -->
-                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                  <a class="ready-btn right-btn page-scroll" href="services">See Services</a>
-                  <a class="ready-btn page-scroll" href="about">Learn More</a>
-                </div>
-              </div>
+                <!-- end col -->
             </div>
-          </div>
+            <!-- end row -->
         </div>
-      </div>
+        <!-- end container -->
     </div>
-  </div>
-  <!-- End Slider Area -->
+    <!-- end menu -->
 
-  <!-- Start About area -->
-  <div id="about" class="about-area area-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline text-center">
-            <h2>About Us</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <!-- single-well start-->
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <div class="well-left">
-            <div class="single-well">
-              <a href="#">
-								  <img src="img/about/1.jpg" alt="">
-								</a>
+    <div id="our_team" class="team-main pad-top-100 pad-bottom-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+						Our Events	
+					</h2>
+                        <p class="title-caption text-center">this are our top event in the </p>
+                    </div>
+                    <div class="team-box">
+
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="sf-team">
+                                    <div class="thumb">
+                                        <a href="#"><img src="images/event%201%202018.jpg" alt=""></a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>GLOW IN THE DARK</h3>
+                                        <p>26 march 2021 @amber lounge <br>  Copyright &copy;. All rights reserved</p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="sf-team">
+                                    <div class="thumb">
+                                        <a href="#"><img src="images/event%202%202019.jpg" alt=""></a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>FASHION FEST</h3>
+                                        <p>22 september 2019 @ transcorp hotel calabar. <br>  Copyright &copy;. All rights reserved</p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                            <div class="col-md-4 col-sm-6">
+                                <div class="sf-team">
+                                    <div class="thumb">
+                                        <a href="#"><img src="images/event%20%203%202020.jpg" alt=""></a>
+                                    </div>
+                                    <div class="text-col">
+                                        <h3>NIGHT OF CRUSETOPIA</h3>
+                                        <p>24 july 2020 @galaxy lodge <br>  Copyright &copy;. All rights reserved</p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                    </div>
+                    <!-- end team-box -->
+
+                </div>
+                <!-- end col -->
             </div>
-          </div>
+            <!-- end row -->
         </div>
-        <!-- single-well end-->
-        <div class="col-md-6 col-sm-6 col-xs-12">
-          <div class="well-middle">
-            <div class="single-well">
-              <a href="#">
-                <h4 class="sec-head">DREAM-WAVE </h4>
-              </a>
-              <p>
-               
-We are one of the fastest growing Media and Entertainment industrys. Dedicated in helping young-mind and also serving as a framework for upcoming professionals in the industry. Dream wave was founded in the early 2016 but to published up until 2018 and was known as D-W, DW was known for it outstanding madia service, event skill and brand management, with a membership of 10 we staged our first event, on the 30th of Dec 2018, and afterwards DW was considered an abbreviation as it now known as DREAM WAVE
-              </p>
-             
-            </div>
-          </div>
-        </div>
-        <!-- End col-->
-      </div>
+        <!-- end container -->
     </div>
-  </div>
-  <!-- End About area -->
+    <!-- end team-main -->
 
-  
-  <!-- our-skill-area start -->
-  <div class="our-skill-area fix hidden-sm">
-    <div class="test-overly"></div>
-    <div class="skill-bg area-padding-2">
-      <div class="container">
-        <!-- section-heading end -->
-        <div class="row">
-          <div class="skill-text">
-            <!-- single-skill start -->
-            <div class="col-xs-12 col-sm-3 col-md-3 text-center">
-              <div class="single-skill">
-                <div class="progress-circular">
-                  <input type="text" class="knob" value="0" data-rel="95" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
-                  <h3 class="progress-h4">Media</h3>
+    <div id="gallery" class="gallery-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+						Our Gallery	
+					</h2>
+                        <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available </p>
+                    </div>
+                    <div class="gal-container clearfix">
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#1">
+                                    <img src="images/gallery_01.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="1" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_01.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 1 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#2">
+                                    <img src="images/gallery_02.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="2" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_02.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 2 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#3">
+                                    <img src="images/gallery_03.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="3" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_03.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 3 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#4">
+                                    <img src="images/gallery_04.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="4" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_04.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 4 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#5">
+                                    <img src="images/gallery_05.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="5" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_05.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 5 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#9">
+                                    <img src="images/gallery_06.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="9" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_06.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 6 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
+                            <div class="box">
+                                <a href="#" data-toggle="modal" data-target="#10">
+                                    <img src="images/gallery_07.jpg" alt="" />
+                                </a>
+                                <div class="modal fade" id="10" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="modal-body">
+                                                <img src="images/gallery_07.jpg" alt="" />
+                                            </div>
+                                            <div class="col-md-12 description">
+                                                <h4>This is the 7 one on my Gallery</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end gal-container -->
                 </div>
-              </div>
+                <!-- end col -->
             </div>
-            <!-- single-skill end -->
-            <!-- single-skill start -->
-            <div class="col-xs-12 col-sm-3 col-md-3 text-center">
-              <div class="single-skill">
-                <div class="progress-circular">
-                  <input type="text" class="knob" value="0" data-rel="85" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
-                  <h3 class="progress-h4">Branding Designs</h3>
-                </div>
-              </div>
-            </div>
-            <!-- single-skill end -->
-            <!-- single-skill start -->
-            <div class="col-xs-12 col-sm-3 col-md-3 text-center">
-              <div class="single-skill">
-                <div class="progress-circular">
-                  <input type="text" class="knob" value="0" data-rel="75" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
-                  <h3 class="progress-h4">Web Designs</h3>
-                </div>
-              </div>
-            </div>
-            <!-- single-skill end -->
-            <!-- single-skill start -->
-            <div class="col-xs-12 col-sm-3 col-md-3 text-center">
-              <div class="single-skill">
-                <div class="progress-circular">
-                  <input type="text" class="knob" value="0" data-rel="65" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
-                  <h3 class="progress-h4">Event managment</h3>
-                </div>
-              </div>
-            </div>
-            <!-- single-skill end -->
-          </div>
+            <!-- end row -->
         </div>
-      </div>
+        <!-- end container -->
     </div>
-  </div>
-  <!-- our-skill-area end -->
- <!-- Start Blog Area -->
-  <div id="blog" class="blog-area">
-    <div class="blog-inner area-padding">
-      <div class="blog-overly"></div>
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>Our Event</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <!-- Start Left Blog -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="single-blog">
-              <div class="single-blog-img">
-                <a href="blog.html">
-										<img src="img/blog/event%201%202018.jpg" alt="">
-									</a>
-              </div>
-             
-            </div>
-            <!-- Start single blog -->
-          </div>
-          <!-- End Left Blog-->
-          <!-- Start Left Blog -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="single-blog">
-              <div class="single-blog-img">
-                <a href="blog.html">
-										<img src="img/blog/event%202%202019.jpg" alt="">
-									</a>
-              </div>
-         
-            </div>
-            <!-- Start single blog -->
-          </div>
-          <!-- End Left Blog-->
-          <!-- Start Right Blog-->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="single-blog">
-              <div class="single-blog-img">
-                <a href="blog.html">
-										<img src="img/blog/event%20%203%202020.jpg" alt="">
-									</a>
-              </div>
-        
-            </div>
-          </div>
-             <a href="#contact" class="ready-btn">Contact us</a>
- 
-          <!-- End Right Blog-->
-        </div>
-      </div>
-              
-    </div>
-         
-  </div>
-    
-  <!-- End Blog -->
+    <!-- end gallery-main -->
 
- 
-   <!-- Start reviews Area -->
-  <div class="video">
-      <center>
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/7sDS70zsdqs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </center>
-        <br><br>
-      </div>
-  <!-- End reviews Area -->
-<br>
- 
- 
-   <!-- start pricing area -->
-  <div id="Products" class="pricing-area area-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="section-headline text-center">
-            <h2>Our Stores</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-12">
-          <div class="pri_table_list">
-            <h3>Fashion  <br/> </h3>
-            <ol>
-              <li class="check">Online system</li>
-              <li class="check ">Full access</li>
-              <li class="check cross">Free apps</li>
-              <li class="check">Payment online</li>
-              <li class="check cross">Cash back</li>
-            </ol>
-            <button>Go To Shop</button>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-4 col-xs-12">
-          <div class="pri_table_list active">
-            <span class="saleon">top sale</span>
-            <h3>Music </h3>
-             <ol>
-              <li class="check">Online system</li>
-              <li class="check ">Full access</li>
-              <li class="check cross">Free apps</li>
-              <li class="check">Payment online</li>
-              <li class="check cross">Cash back</li>
-            </ol>
-            <button>Go To Shop</button>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-4 col-xs-12">
-          <div class="pri_table_list">
-            <h3>Event names/artworks </h3>
-             <ol>
-              <li class="check">Online system</li>
-              <li class="check ">Full access</li>
-              <li class="check cross">Free apps</li>
-              <li class="check">Payment online</li>
-              <li class="check ">Cash back</li>
-            </ol>
-            <button>Go To Shop</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End pricing table area -->
-     <!-- Start reviews Area -->
-  <div class="reviews-area hidden-xs">
-    <div class="work-us">
-      <div class="work-left-text">
-        <a href="#">
-						<img src="img/about/2.jpg" alt="">
-					</a>
-      </div>
-      <div class="work-right-text text-center">
-        <h2>working with us</h2>
-        <h5>Web Designer, Models and Ushers, Brand/Event markers, Media presence, Entertainers. </h5>
-        <a href="#contact" class="ready-btn">Contact us</a>
-      </div>
-    </div>
-  </div>
-  <!-- End reviews Area -->
+    <div id="blog" class="blog-main pad-top-100 pad-bottom-100 parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="block-title text-center">
+					Our Blog 	
+				</h2>
+                    <div class="blog-box clearfix">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/blog1.jpg" alt="" />
+                                        <div class="overlay">
+                                            <a href="https://dreamwaveblogs.blogspot.com/2021/06/no-bra-day.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>UP COMING, FAMOUS ENT EVENT</span></p>
+                                        <h2>NO BRA DAY <br> 2021</h2>
+                                        <h5>BY FAMOUS ENT</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/blog2.jpg" alt="" />
+                                        <div class="overlay">
+                                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>UP COMING</span></p>
+                                        <h2>BEAT D HEAT POOL PARTY</h2>
+                                        <h5>BY HEAT  BUSTERS</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/blog4.jpg" alt="" />
+                                        <div class="overlay">
+                                            <a href=""><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>UP COMINIG</span></p>
+                                        <h2>SOUTHERN FEST</h2>
+                                        <h5>BY CENUEL EVENTS</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="blog-block">
+                                    <div class="blog-img-box">
+                                        <img src="images/blog3.JPG" alt="" />
+                                        <div class="overlay">
+                                            <a href="https://dreamwaveblogs.blogspot.com/2021/06/biggest-event-cash-out-in-calabar.html"><i class="fa fa-link" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="blog-dit">
+                                        <p><span>BIGGEST CASHOUT</span></p>
+                                        <h2>THE BIGEST EVENT CASHOUT</h2>
+                                        <h5>BY 9JAGIDI</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end col -->
+                        </div>
+                    </div>
+                    <!-- end blog-box -->
 
-  
-  <!-- Start contact Area -->
-    <br>
-     <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>Contact us</h2>
-            </div>
-          </div>
-        </div>
-  <!-- End Contact Area -->
+                    <div class="blog-btn-v">
+                        <a class="hvr-underline-from-center" href="#">View the Blog</a>
+                    </div>
 
-  <!-- Start Footer bottom Area -->
-  <footer>
-    <div class="footer-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="footer-content">
-              <div class="footer-head">
-                <div class="footer-logo">
-                  <h2><span>DREAM</span>WAVE</h2>
                 </div>
-
-                <p>We are dedicated in helping young-mind and also serving as a framework for upcoming professionals.</p>
-                <div class="footer-icons">
-                  <ul>
-                    <li>
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-google"></i></a>
-                    </li>
-                    <li>
-                      <a href="#"><i class="fa fa-pinterest"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+                <!-- end col -->
             </div>
-          </div>
-          <!-- end single footer -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="footer-content">
-              <div class="footer-head">
-                <h4>information</h4>
-                <p>
-                   101 Goldie Street calabar
-                </p>
-                <div class="footer-contacts">
-                  <p><span>Tel:</span> +2347026388989</p>
-                  <p><span>Email:</span> info.dreamwave.com@gmail.com</p>
-                  <p><span>Working Hours:</span> 9am-6pm</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end single footer -->
-          <div class="col-md-4 col-sm-4 col-xs-12">
-            <div class="footer-content">
-              <div class="footer-head">
-                <h4>Instagram</h4>
-                <div class="flicker-img">
-                  <a href="#"><img src="img/portfolio/1.jpg" alt=""></a>
-                  <a href="#"><img src="img/portfolio/2.jpg" alt=""></a>
-                  <a href="#"><img src="img/portfolio/3.jpg" alt=""></a>
-                  <a href="#"><img src="img/portfolio/4.jpg" alt=""></a>
-                  <a href="#"><img src="img/portfolio/5.jpg" alt=""></a>
-                  <a href="#"><img src="img/portfolio/6.jpg" alt=""></a>
-                </div>
-              </div>
-            </div>
-          </div>
+            <!-- end row -->
         </div>
-      </div>
+        <!-- end container -->
     </div>
-       <!-- Start  Stay Updated Area -->
-  <div class="wellcome-area">
-    <div class="well-bg">
-      <div class="test-overly"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="wellcome-text">
-              <div class="well-text text-center">
-                  <h2>Stay Updated</h2>
-                  <p>Sign up for our newsletter to receive the latest news and event postings.</p>
-                
-                <div class="subs-feilds">
-                  <div class="suscribe-input">
-                    <input type="email" class="email form-control width-80" id="sus_email" placeholder="Email">
-                    <button type="submit" id="sus_submit" class="add-btn width-20">Subscribe</button>
-                    <div id="msg_Submit" class="h3 text-center hidden"></div>
-                  </div>
+    <!-- end blog-main -->
+
+    <div id="pricing" class="pricing-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="block-title text-center">
+						Our Stores 	
+					</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci varius, elementum lectus nec, aliquam lectus. Duis neque augue, maximus in sapien ut, porta pharetra odio.</p>
                 </div>
-              </div>
+                <div class="panel-pricing-in">
+                    <!-- item -->
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <div class="panel panel-pricing">
+                            <div class="panel-heading">
+                                <div class="pric-icon">
+                                    <img src="images/store.png" alt="" />
+                                </div>
+                                <h3>Shophill</h3>
+                            </div>
+                            <div class="panel-body text-center">
+                                <p><strong>FASHION </strong></p>
+                            </div>
+                            <ul class="list-group text-center">
+                                <li class="list-group-item"><i class="fa fa-check"></i> WOMAN FASHION</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> MANS FASHION</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> </li>
+                                <li class="list-group-item"><i class="fa fa-times"></i> </li>
+                                <li class="list-group-item"><i class="fa fa-times"></i> </li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> 24x7 Support</li>
+                            </ul>
+                            <div class="panel-footer">
+                                <a class="btn btn-lg btn-block hvr-underline-from-center" href="#">GO TO STORES!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /item -->
+
+                    <!-- item -->
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <div class="panel panel-pricing">
+                            <div class="panel-heading">
+                                <div class="pric-icon">
+                                    <img src="images/STUDIO%20+.jpg" width="100px" alt="" />
+                                </div>
+                                <h3>STUDIO+</h3>
+                            </div>
+                            <div class="panel-body text-center">
+                                <p><strong><span>ENTERTAINMET</span></strong></p>
+                            </div>
+                            <ul class="list-group text-center">
+                                <li class="list-group-item"><i class="fa fa-check"></i> One Website</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> One User</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> 50 GB Bandwidth</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> 2GB Storage</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Offline work</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> 24x7 Support</li>
+                            </ul>
+                            <div class="panel-footer">
+                                <a class="btn btn-lg btn-block hvr-underline-from-center" href="#">Purchase Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /item -->
+
+                    <!-- item -->
+                    <div class="col-md-4 col-sm-4 text-center">
+                        <div class="panel panel-pricing">
+                            <div class="panel-heading">
+                                <div class="pric-icon">
+                                    <img src="images/TDM.png" width="100px" alt="" />
+                                </div>
+                                <h3>TDM</h3>
+                            </div>
+                            <div class="panel-body text-center">
+                                <p><strong>Music</strong></p>
+                            </div>
+                            <ul class="list-group text-center">
+                                <li class="list-group-item"><i class="fa fa-check"></i> One Website</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> One User</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> 100 GB Bandwidth</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> 2GB Storage</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> Offline work</li>
+                                <li class="list-group-item"><i class="fa fa-check"></i> 24x7 Support</li>
+                            </ul>
+                            <div class="panel-footer">
+                                <a class="btn btn-lg btn-block hvr-underline-from-center" href="#">Purchase Now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /item -->
+                </div>
             </div>
-          </div>
+            <!-- end row -->
         </div>
-      </div>
+        <!-- end container -->
     </div>
-  </div>
-  <!-- End Stay Updated Area -->
- 
-  
-    <div class="footer-area-bottom">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="copyright text-center">
-              <p>
-                &copy; Copyright <strong>DREAMWAVE</strong>. All Rights Reserved
-              </p>
+    <!-- end pricing-main -->
+
+    <div id="reservation" class="reservations-main pad-top-100 pad-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="form-reservations-box">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <h2 class="block-title text-center">
+						Booking/Reservations			
+					</h2>
+                        </div>
+                        <p>PLEASE FILL OUT ALL REQUIRED* FIELDS IN THE FROM THANKS!</p>
+                         <div class="reserve-book-btn text-center">
+                                    <button class="hvr-underline-from-center" type="submit" value="SEND" id="submit">GO TO BOOKING  </button>
+                                </div>
+
+                         <!-- end form -->
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end reservations-box -->
             </div>
-            <div class="credits">
-              <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
-              -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> &amp;<a href="#"> DreamWave</a>
-            </div>
-          </div>
+            <!-- end row -->
         </div>
-      </div>
+        <!-- end container -->
     </div>
-  </footer>
+    <!-- end reservations-main -->
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="footer" class="footer-main">
+        <div class="footer-news pad-top-100 pad-bottom-70 parallax">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                            <h2 class="ft-title color-white text-center"> Newsletter </h2>
+                            <p> Sign up for our newsletter to receive the latest news and event postings.</p>
+                        </div>
+                        <form>
+                            <input type="email" placeholder="Enter your e-mail id">
+                            <a href="#" class="orange-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
+                        </form>
+                    </div>
+                    <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end footer-news -->
+        <div class="footer-box pad-top-70">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-in-main">
+                        <div class="footer-logo">
+                            <div class="text-center">
+                                <img src="images/logo.png" width="20%" alt="" /> <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-a">
+                                <h3>About Us</h3>
+                                <p>We are dedicated in helping young-mind and also serving as a framework for upcoming professionals.</p>
+                                <ul class="socials-box footer-socials pull-left">
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa  fa-facebook"></i></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa fa-twitter"></i></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa fa-whatsapp"></i></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa fa-instagram"></i></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="social-circle-border"><i class="fa fa-youtube"></i></div>
+                                        </a>
+                                    </li>
+                                </ul>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/venobox/venobox.min.js"></script>
-  <script src="lib/knob/jquery.knob.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/parallax/parallax.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-  <script src="lib/appear/jquery.appear.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+                            </div>
+                            <!-- end footer-box-a -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-b">
+                                <h3>New Menu</h3>
+                                <ul>
+                                    <li><a href="#">Shophill</a></li>
+                                    <li><a href="#">TDM</a></li>
+                                    <li><a href="#">BLOG</a></li>
+                                    <li><a href="#">STUDIO +</a></li>
+                                </ul>
+                            </div>
+                            <!-- end footer-box-b -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-c">
+                                <h3>Contact Us</h3>
+                                <p>
+                                    <i class="fa fa-map-signs" aria-hidden="true"></i>
+                                    <span>101 Goldie Street calabar</span>
+                                </p>
+                                <p>
+                                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                                    <span>
+									 +2347026388989
+								</span>
+                                </p>
+                                <p>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <span><a href="#"> info.dreamwave.com@gmail.com</a></span>
+                                </p>
+                            </div>
+                            <!-- end footer-box-c -->
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                            <div class="footer-box-d">
+                                <h3>Opening Hours</h3>
 
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+                                <ul>
+                                    <li>
+                                        <p>Monday - Thursday </p>
+                                        <span> 9:00 AM - 8:00 PM</span>
+                                    </li>
+                                    <li>
+                                        <p>Friday - Saturday </p>
+                                        <span>  10:00 AM - 5:00 PM</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end footer-box-d -->
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end footer-in-main -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+            <div id="copyright" class="copyright-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h6 class="copy-title"> Copyright &copy; DREAM WAVE All rights reserved <a href="#" target="_blank"></a> </h6>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </div>
+            <!-- end copyright-main -->
+        </div>
+        <!-- end footer-box -->
+    </div>
+    <!-- end footer-main -->
 
-  <script src="js/main.js"></script>
+    <a href="#" class="scrollup" style="display: none;">Scroll</a>
+
+    <section id="color-panel" class="close-color-panel">
+        <a class="panel-button gray2"><i class="fa fa-cog fa-spin fa-2x"></i></a>
+        <!-- Colors -->
+        <div class="segment">
+            <h4 class="gray2 normal no-padding">Color Scheme</h4>
+            <a title="#520da3" class="switcher orange-bg"></a>
+            <a title="strong-blue" class="switcher strong-blue-bg"></a>
+            <a title="moderate-green" class="switcher moderate-green-bg"></a>
+            <a title="vivid-yellow" class="switcher vivid-yellow-bg"></a>
+        </div>
+    </section>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
